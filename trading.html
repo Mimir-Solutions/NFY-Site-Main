@@ -51,33 +51,10 @@
 <body>
 
 
-  <div class="page-bg-holder">
-    <img src="images/about-bg.jpg"
-         alt="">
-  </div>
+
 
   <!-- header -->
   <header class="main_head">
-    <div class="header-top">
-      <marquee behavior="scroll"
-               direction="left"
-               onmouseover="this.stop();"
-               onmouseout="this.start();">
-        <ul>
-          <li><a
-               href="https://etherscan.io/token/0x1cBb83EbcD552D5EBf8131eF8c9CD9d9BAB342bC">Total
-              Supply: 100,000 NFY Tokens</a></li>
-          <li><a
-               href="https://v2.unicrypt.network/pair/0x146D3401B6a41122Bd318ba676A01c44cB0795E2">Liquidity
-              Lock Proof: Unicrypt</a></li>
-          <li><a
-               href="https://info.uniswap.org/pair/0x146d3401b6a41122bd318ba676a01c44cb0795e2">Trade:
-              UniSwap </a></li>
-          <li><a
-               href="https://docsend.com/view/dceh3gbuv4nupmte">Audit Report</a></li>
-        </ul>
-      </marquee>
-    </div>
     <div class="menu-container">
       <div class="header_menu">
         <div id="nav-icon"
@@ -87,6 +64,12 @@
           <span></span>
         </div>
         <div class="all_menu_wrap row">
+          <div class="logo_wrap">
+            <div id="trading-logo" class="logo_box">
+              <a href="index.html"><img src="images/logo.svg"
+                     alt=""></a>
+            </div>
+          </div>
 
           <div class="left_menu_wrap col">
             <div class="left_menu">
@@ -96,14 +79,6 @@
                 <li class="current-menu-item"><a href="trading.html">TRADING</a></li>
                 <li><a href="about.html">ABOUT NFY</a></li>
               </ul>
-            </div>
-          </div>
-
-
-          <div class="logo_wrap">
-            <div id="trading-logo" class="logo_box">
-              <a href="index.html"><img src="images/logo.svg"
-                     alt=""></a>
             </div>
           </div>
 
@@ -137,22 +112,21 @@
 
 
   <!-- Header Bottom Section -->
+  <div class="boxP">
+    <h4>TRADING FLOOR</h4>
+  </div>
   <section class="header-bottom-section common-px">
     <div class="container-fluid p-lg-0">
       <div class="row">
-        <div class="col-md-4">
-          <div class="has-underline">
-            <h3>TRADING FLOOR</h3>
-          </div>
-        </div>
-        <div class="col-md-4 text-center"
+     
+        <div class="col-md-5 text-center"
              data-toggle="modal"
              data-target="#nfy-deposit-page">
           <a href="#"
              class="btn">DEPOSIT / WITHDRAW</a>
 
         </div>
-        <div class="col-md-4 text-md-right">
+        <div class="col-md-5 text-md-right">
           <a href="#"
              class="btn connect_button">UNLOCK WALLET</a>
         </div>
@@ -475,7 +449,11 @@
       </div>
 
     </div>
+    
+<div class="spacer">
 
+
+</div>
 
     <footer>
       <div class="hero-banner-social page-social-section">

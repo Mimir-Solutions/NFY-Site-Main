@@ -27,87 +27,82 @@
 </head>
                                                                                                  
 <body>
-
-
-<div class="page-bg-holder">
-    <img src="images/about-bg.jpg" alt="">
-</div>
-
     <!-- header -->
     <header class="main_head">
-        <div class="header-top">
-            <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-            <ul>
-            <li><a href="https://etherscan.io/token/0x1cBb83EbcD552D5EBf8131eF8c9CD9d9BAB342bC">Total Supply: 100,000 NFY Tokens</a></li>
-            <li><a href="https://v2.unicrypt.network/pair/0x146D3401B6a41122Bd318ba676A01c44cB0795E2">Liquidity Lock Proof: Unicrypt</a></li>
-            <li><a href="https://info.uniswap.org/pair/0x146d3401b6a41122bd318ba676a01c44cb0795e2">Trade: UniSwap </a></li>
-                <li><a href="https://docsend.com/view/d5ju2wghrp7k6v4h">Audit Report </a></li>
-            </ul>
-            </marquee>
-        </div>
         <div class="menu-container">
-            <div class="header_menu">    
-                <div id="nav-icon" onclick="menu_open()">
-                  <span></span>
-                  <span style="display:none"></span>
-                  <span></span>
-                </div>           
-                <div class="all_menu_wrap">                  
-
-                    <div class="left_menu_wrap"> 
-                        <div class="left_menu">                            
-                            <ul>  
-                                <li class="d-block d-lg-none "><a href="index.html">HOME</a></li>
-                                <li class="current-menu-item"><a href="staking.html">STAKING / UNSTAKING</a></li>
-                                <li><a href="trading.html">TRADING</a></li>
-                                <li><a href="about.html">ABOUT NFY</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    
-                    <div class="logo_wrap">
-                        <div class="logo_box">
-                            <a href="index.html"><img src="images/logo.svg" alt=""></a>
-                        </div>
-                    </div>
-
-                    <div class="right_menu_wrap">
-                        <div class="social_menu">   
-                                                       
-                            <ul>                                
-                                <li><a href="https://github.com/NFYFinance"><img src="images/git.svg" alt=""></a></li>
-                                <li><a href="https://etherscan.io/token/0x1cBb83EbcD552D5EBf8131eF8c9CD9d9BAB342bC"><img src="images/social-2.svg" alt=""></a></li>
-                                <li><a href="http://discord.gg/wKgUcYr"><img src="images/discord.svg" alt=""></a></li>
-                                <li><a href="https://t.me/NFYOfficialChat"><img src="images/telegram.svg" alt=""></a></li>
-                                <li><a href="https://twitter.com/NFYFinance"><img src="images/twit.svg" alt=""></a></li>
-                            </ul>
-                        </div>
-                    </div>                     
-                </div>
+          <div class="header_menu">
+            <div id="nav-icon"
+                 onclick="menu_open()">
+              <span></span>
+              <span style="display:none"></span>
+              <span></span>
             </div>
+            <div class="all_menu_wrap row">
+              <div class="logo_wrap">
+                <div id="trading-logo" class="logo_box">
+                  <a href="index.html"><img src="images/logo.svg"
+                         alt=""></a>
+                </div>
+              </div>
+    
+              <div class="left_menu_wrap col">
+                <div class="left_menu">
+                  <ul>
+                    <li class="d-block d-lg-none"><a href="index.html">HOME</a></li>
+                    <li><a href="staking.html">STAKING / UNSTAKING</a></li>
+                    <li class="current-menu-item"><a href="trading.html">TRADING</a></li>
+                    <li><a href="about.html">ABOUT NFY</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="right_menu_wrap col text-right">
+                <div class="social_menu"
+                     style="display: inline-flex;">
+    
+                  <ul>
+                    <li><a href="https://github.com/NFYFinance"><img src="images/git.svg"
+                             alt=""></a></li>
+                    <li><a
+                         href="https://etherscan.io/token/0x1cBb83EbcD552D5EBf8131eF8c9CD9d9BAB342bC"><img
+                             src="images/social-2.svg"
+                             alt=""></a></li>
+                    <li><a href="http://discord.gg/wKgUcYr"><img src="images/discord.svg"
+                             alt=""></a></li>
+                    <li><a href="https://t.me/NFYOfficialChat"><img src="images/telegram.svg"
+                             alt=""></a></li>
+                    <li><a href="https://twitter.com/NFYFinance"><img src="images/twit.svg"
+                             alt=""></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </header>
-
+      </header>
+    
     
     <!-- end header -->
 
 
     <!-- Header Bottom Section -->
     <section class="header-bottom-section common-px">
+        
+        <button class="btn connect_button">UNLOCK WALLET</button>
+        </div>
+        <h4>STAKING / UNSTAKING</h4>
         <div class="container-fluid p-lg-0">
             <div class="row">
                 <div class="col-md-4">
                     <div class="has-underline">
-                        <h3>STAKING / UNSTAKING</h3>
+                        
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
                     <h3><span class="text-green">TOTAL REWARD POOL = </span><span id="nfy-reward-pool" class="nfy-reward">N/A</span> NFY</h3>
                 </div>
-                <div class="col-md-4 text-md-right">
-                    <button class="btn connect_button">UNLOCK WALLET</button>
-                </div>
+                
             </div>
         </div>
     </section>
